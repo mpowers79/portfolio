@@ -1,3 +1,5 @@
+<img src="Header.png">
+
 # Michael Powers - AI Product Manager
 *A Product Leader leveraging a decade of consumer SaaS expertise to build innovative AI applications.*
 
@@ -8,7 +10,7 @@
 1. [**About Me**](#-about-me)
 2. [**Projects**](#-projects)
    - [Game Review Sentiment Analyzer](#game-review-sentiment-analyzer)
-   - [Natural Language Database Queries](#natural-language-database-queries)
+   - [Text-to-SQL System with a Custom Evaluation Framework](#text-to-sql-system-with-a-custom-evaluation-framework)
 3. [**Tech Stack**](#-tech-stack)
 4. [**Contact Me**](#-contact-me)
 
@@ -18,7 +20,7 @@
 
 I am a product leader with over 10 years of experience, most recently as a Product Director in the live-service gaming industry. In that role, I was responsible for leading a 100 person cross functional team to deliver 0-to-1 consumer products, also leading initatives that generated eight-figure revenue growth to existing products.
 
-Today, I am passionately applying my expertise in system design and user-centric development to the field of Artificial Intelligence. Through hands-on projects, I am exploring how to build, evaluate, and deploy effective AI solutions that solve real-world business problems. My goal is to leverage my deep experience in commercial product strategy to deliver impactful AI products.
+Today, I am passionately applying my expertise in designing data-driven systems and user-centric development to the field of Artificial Intelligence. Through hands-on projects, I am exploring how to build, evaluate, and deploy effective AI solutions that solve real-world business problems. My goal is to leverage my deep experience in commercial product strategy to deliver impactful AI products.
 
 <br>
 <details>
@@ -26,20 +28,37 @@ Today, I am passionately applying my expertise in system design and user-centric
   <br/>
   <strong>User Churn Prediction</strong>
   <ul>
-    <li><strong>Business Impact:</strong> xyz</li>
-    <li><strong>My Role:</strong> Goals, Requirements, Working with data scientists, Measuring Impact, Iterating, Evaluating ROI, Partnering with marketing on campaigns</li>
+    <li><strong>Business Impact:</strong> Increased user retention</li>
+    <li><strong>My Role:</strong> As the product lead, I was responsible for:</li>
+     <ul>
+        <li>Defining product goals and requirements</li>
+        <li>Collaborating with data science on model features and telemetry</li>
+        <li>Measuring business impact, evaluating ROI, and iterating on the product</li>
+        <li>Partnering with marketing and other stakeholders to deliver results</li>
+     </ul>
   </ul>
   <br/>
   <strong>Recommendations</strong>
   <ul>
-    <li><strong>Business Impact:</strong> xyz</li>
-    <li><strong>My Role:</strong> xyz</li>
+    <li><strong>Business Impact:</strong> Improved engagement (recommended content), Increased revenue (recommended items)</li>
+    <li><strong>My Role:</strong> As the product lead, I was responsible for:</li>
+     <ul>
+        <li>Defining product goals and requirements</li>
+        <li>Collaborating with data science</li>
+        <li>Measuring business impact and iterating</li>
+     </ul>
   </ul>
   <br/>
   <strong>Safety - Message Classifications</strong>
   <ul>
-    <li><strong>Business Impact:</strong> xyz</li>
-    <li><strong>My Role:</strong> Goals, Requirements, Working with data scientists, Measuring Impact, Evaluating ROI, Partnering with Trust & Safety</li>
+    <li><strong>Business Impact:</strong> Increased output of customer service agents by reducing average ticket volume and reducing average time to resolve tickets</li>
+    <li><strong>My Role:</strong> As the product lead, I was responsible for:</li>
+     <ul>
+     <li>Defining product goals and requirements</li>
+        <li>Collaborating with data scientists</li>
+        <li>Measuring business impact, evaluating ROI</li>
+        <li>Partnering with Trust & Safety on the requirements and usage</li>
+     </ul>
   </ul>
 </details>
 
@@ -49,10 +68,10 @@ Today, I am passionately applying my expertise in system design and user-centric
   <br />
   <ul>
     <li><strong>Model Evaluation Frameworks:</strong> Creating frameworks to measure model performance that is tailored to both creating <strong>business impact</strong> and producing nuanced error analysis to improve <strong>system performance</strong>.</li>
-  <li><strong>RAG Systems:</strong> xyz</li>
-  <li><strong>LLM Fine-tuning:</strong> xyz</li>
-  <li><strong>Prompt Engineering:</strong> xyz</li>
-  <li><strong>AI Product Strategy:</strong> xyz</li>
+  <li><strong>RAG Systems:</strong> Evaluation and implementation of Retrival-Augmented Generation architecture, including vector databases, chunking strategies, retrieval optimization</li>
+  <li><strong>LLM Fine-tuning:</strong> Hands-on experience improving open source LLMs (e.g. PEFT/QLoRA) to perform better than commercial models at specialized tasks like sentiment and keyword extraction.</li>
+  <li><strong>Prompt Engineering:</strong> Designing, testing and refining complex prompts to reliably control LLM output quality.</li>
+  <li><strong>AI Product Strategy:</strong> Defining AI product vision, identifying use cases and building roadmaps that balance user needs with technical feasbility.</li>
   </ul>
 </details>
 
@@ -69,19 +88,31 @@ Today, I am passionately applying my expertise in system design and user-centric
 A pipeline to ingest game review data, process it through the LLM, and store structred JSON output in Parquet files *(for easy integration with corporate BI systems)*.
 
 Interactive web app: Google Play Store review scraper, LLM Triggering & Data Processing, Data Visualization *(sentiment trends, negative topics, top keywords)*
-<br>
-<br>
 
-**Demo Video:**
+<br><br>
 
-<a href="https://www.youtube.com/watch?v=GEMb5UU9f1c">
-  <img src="https://utfs.io/f/nGnSqDveMsqxtQpO27FF3HOaVQ0PyCAMeLgEnIdYwcR6KZBp" alt="Watch the Demo Video" width="500">
-</a>  
-<br>
-<br>
-<br>
+<table>
+<tr>
+   <td width="50%" valign="top">
+   <strong>Fine-Tuning Workflow</strong><br>  
+   <em>This diagram shows the iterative process of data collection, labeling, training, and evaluation.</em><br><br>
+   <img src="Fine-tune.png" alt="Fine-tuning workflow diagram" width="100%">   
+   </td> 
+   <td width="50%" valign="top">
+      <strong>Demo Video</strong><br>
+      <em>Watch a walkthrough of the final Streamlit application, including the review scraper and visualizations.</em><br><br>
+      <a href="https://www.youtube.com/watch?v=GEMb5UU9f1c">
+      <img src="https://utfs.io/f/nGnSqDveMsqxtQpO27FF3HOaVQ0PyCAMeLgEnIdYwcR6KZBp" alt="Watch the Demo Video" width="100%">
+      </a> </td>
+ 
+</tr>
+</table>
 
-**Model Performance Results (custom F1 scoring metrics):**
+<br><br>
+**Model Performance vs Baselines (custom F1 scoring metrics):**
+<br/>
+The fine-tuned model (v12) shows a **24% improvement** in keyword extraction and outperforms commercial models like Gemini on the overall F1 score.
+<br/>
 
 | Model Version | Overall Score | Sentiment(F1) | Neg Tracker(F1) | Keywords(F1) |
 |:-------------:|:-------------:|:-------------:|:---------------:|:------------:|
@@ -90,16 +121,15 @@ Interactive web app: Google Play Store review scraper, LLM Triggering & Data Pro
 | Gemini 2.0 flash*| 0.855 | **0.916** | 0.95 | 0.677 |
 | Gemini 2.5 pro|0.831|0.894|0.90|0.679|
 
-*Gemini 2.0 flash was used as a baseline comparison vs commercial models*
 <br>
 <br>
 
 **Resources:**
 *  **[📄 Case Study PDF](https://drive.google.com/file/d/1koWwpR_HF0uuJ62mFEIfTVbETOdfyU2d/view?usp=sharing)**
-*  **[</> GitHub Repo](https://github.com/mpowers79/llama-game-review-analyzer)**
-*  **Download Fine-tune with Ollama**: ```ollama run hf.co/MrMike42/GameReview-llama3.1-8b-v12-Q4_K_M-GGUF```
-*  **Tech Stack:** Python | Streamlit | Llama 3.1 8b | Unsloth | Pandas | google-play-scraper | Ollama | Llama-Index | PyArrow | Jupyter Notebooks
-*  **Articles:**
+*  **[📁 GitHub Repo](https://github.com/mpowers79/llama-game-review-analyzer)**
+*  **💾 Run locally with Ollama**: ```ollama run hf.co/MrMike42/GameReview-llama3.1-8b-v12-Q4_K_M-GGUF```
+*  **🛠️ Tech Stack:** Python | Streamlit | Llama 3.1 8b | Unsloth | Pandas | google-play-scraper | Ollama | Llama-Index | PyArrow | Jupyter
+*  **📝 Articles:**
    * [JSON Test Data Workflow with Gemini & Label Stuido](https://medium.com/@michael.sean.powers/llm-fine-tuning-json-test-data-workflow-with-gemini-label-studio-ea1e0657c7f4)
    * [LLM Fine-tuning: What Tutorials Don't Show You](https://medium.com/@michael.sean.powers/llm-fine-tuning-what-tutorials-dont-show-you-33819db5df8f)
    * [Hyperparameter Tuning: How I Used Data-Driven Decisions to Stop Winging It](https://medium.com/@michael.sean.powers/hyperparameter-tuning-how-i-used-data-driven-decisions-to-stop-winging-it-625dd28d5dc4)
@@ -110,30 +140,55 @@ Interactive web app: Google Play Store review scraper, LLM Triggering & Data Pro
 
 ---
 
-### Natural Language Database Queries 
+### Text-to-SQL System with a Custom Evaluation Framework
 
-*This project demonstrates a systematic approach to building and evaluating a complex Text-to-SQL system. It builds user trust through transparency.*
+*An advanced RAG pipeline for Text-to-SQL, built and improved using a custom, multi-layered evaluation framework to drive accuracy and user trust through transparency.*
 
-A multi-step RAG-to-SQL pipeline that breaks down complex query generation into a series of manageable tasks that performs better than a single LLM call. Vector databases are used to store database schemas and business terms. For trust, the user interface highlights: where the data came from, how the data is segmented, how metrics are calculated, etc.
+**Key Features & Accomplishments:**
+* **Developed a Custom Evaluation Framework:** Created a systematic process to find, categorize, and reduce query errors, which was the core of this project.
+* **Engineered a Multi-Step RAG Pipeline:** Designed a pipeline that outperforms single-LLM calls for complex queries.
+* **Achieved 3x Accuracy Improvement:** The evaluation-driven approach tripled the execution accuracy on the Spider 2.0 benchmark compared to the baseline.
+* **Designed for User Trust:** The UI includes "glass box" features to transparently show users how the SQL was generated and where the data originated.
 
-The core of this project is not just the pipeline itself, but the evaluation framework used to build and refine it. By systematically evaluating why the system fails, we can create a data-driven roadmap for improvement.
 <br>
-<br>
+<table>
+<tr>
+   <td width="50%" valign="top">
+   <strong>Evaluation Framework</strong><br>  
+   <em>The core of this project: a framework to systematically find, categorize, and reduce errors.</em><br><br>
+   <img src="Evaluation-framework.png" alt="Multi-layered evaluation framework diagram" width="100%">   
+   </td>
+   <td width="50%" valign="top">
+    <strong>Demo Video</strong><br>
+   <em>A walkthrough of the UI, showing how the system builds user trust through transparency.</em><br><br>
+   <a href="https://www.youtube.com/watch?v=D0hAzraHf48">
+   <img src="https://utfs.io/f/nGnSqDveMsqx6az3Cq37JTK7HUg0zjInSLo1p352xXZkOGhb" alt="Watch the Demo Video" width="100%">
+   </a> 
+   </td>
+</tr>
+</table>
 
-**Demo Video:**
+<br><br>
+**Performance Results: 3x Accuracy Improvement**
 
-<a href="https://www.youtube.com/watch?v=D0hAzraHf48">
-  <img src="https://utfs.io/f/nGnSqDveMsqx6az3Cq37JTK7HUg0zjInSLo1p352xXZkOGhb" alt="Watch the Demo Video" width="500">
-</a>  
-<br>
+*The new pipeline achieved a **~15% reduction in total errors** and a **~50% reduction in critical Syntax and Aggregation errors** versus the baseline model.*
+
+ **Error Reduction Analysis (New Pipeline vs. Baseline):**
+
+|Error Category	| Baseline Errors	| New Pipeline Errors	| Reduction|
+|---------------|-----------------|---------------------|----------|
+|Total Errors	| 113 |	96	| ~15% |
+|Syntax Errors |	14 |	7 |	~50% |
+|Aggregation Errors |	21 |	10	| ~52% |
+|Join Errors	| 18 |	15 |	~17% |
 <br>
 <br>
 
 **Resources:**
 *  **[📄 Case Study PDF](https://drive.google.com/file/d/1jpBpiKcWMY3yCzQQGMGHxVpeUac9uA95/view?usp=sharing)**
-*  **[</> GitHub Repo](https://github.com/mpowers79/RAG-to-SQL)**
-*  **Tech Stack:** Python | Streamlit | Google Gemini | Llama-index | Ollama | ChromaDB | Jupyter Notebooks | SQLite
-*  **Articles:**
+*  **[📁 GitHub Repo](https://github.com/mpowers79/RAG-to-SQL)**
+*  **🛠️ Tech Stack:** Python | Streamlit | Google Gemini | Llama-index | Ollama | ChromaDB | Jupyter Notebooks | SQLite
+*  **📝 Articles:**
    * [Product Manager's Guide to Building LLM Evaluation Frameworks](https://medium.com/@michael.sean.powers/a-product-managers-guide-to-building-llm-evaluation-frameworks-2a4a15d8c63d)
    * [Building a Transparent and Improvable Text-to-SQL System](https://www.linkedin.com/pulse/building-transparent-improvable-text-to-sql-system-michael-powers-xjric)
    * [A Practical Approach to Trusting AI in Business Data](https://www.linkedin.com/pulse/glass-box-practical-approach-trusting-ai-business-data-michael-powers-1zyyc)
@@ -214,9 +269,9 @@ The core of this project is not just the pipeline itself, but the evaluation fra
 
 ## 📫 Contact Me
 
-Connect with me on Linkedin: https://www.linkedin.com/in/michaelspowers/
+[Connect with me on LinkedIn](https://www.linkedin.com/in/michaelspowers/)
 
-Email: michael.sean.powers@gmail.com
+[michael.sean.powers@gmail.com](mailto:michael.sean.powers@gmail.com)
 
 *For professional inquiries, including job opportunities, please connect with me on Linkedin or send an email.*
 
