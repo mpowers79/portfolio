@@ -67,11 +67,13 @@ Today, I am passionately applying my expertise in designing data-driven systems 
   <summary><strong>View my Core AI/ML Competencies</strong></summary>
   <br />
   <ul>
-    <li><strong>Model Evaluation Frameworks:</strong> Creating frameworks to measure model performance that is tailored to both creating <strong>business impact</strong> and producing nuanced error analysis to improve <strong>system performance</strong>.</li>
+    <li><strong>Model Evaluation Frameworks:</strong> Creating custom frameworks with domain-specific metrics (custom F1 scores) to drive iterative improvements: <strong>business impact</strong> based on root-cause error analysis.</li>
   <li><strong>RAG Systems:</strong> Evaluation and implementation of Retrival-Augmented Generation architecture, including vector databases, chunking strategies, retrieval optimization</li>
-  <li><strong>LLM Fine-tuning:</strong> Hands-on experience improving open source LLMs (e.g. PEFT/QLoRA) to perform better than commercial models at specialized tasks like sentiment and keyword extraction.</li>
+  <li><strong>LLM Fine-tuning & Domain Adaptation:</strong> Adapting open-source models to specialized domains (gaming slang) through curated data and targeted fine-tuning (PEFT/QLoRA) to outperform commercial baselines.</li>
   <li><strong>Prompt Engineering:</strong> Designing, testing and refining complex prompts to reliably control LLM output quality.</li>
-  <li><strong>AI Product Strategy:</strong> Defining AI product vision, identifying use cases and building roadmaps that balance user needs with technical feasbility.</li>
+  <li><strong>Root Cause Error Analysis:</strong> Systematically categorizing model failures (e.g., syntax, aggregation errors) to create a data-driven roadmap for targeted improvements.</li>
+   <li><strong>Benchmarking & Competitive Analysis:</strong> Situating product performance in the market by rigorously testing against external industry benchmarks (e.g., Spider 2.0) and the performance of leading commercial APIs (Gemini).</li>
+  <li><strong>AI Product Strategy:</strong> Navigating the unique challenges of AI product development: making "fine-tune vs. buy" decisions, identifying high-value use cases for LLM systems, and building roadmaps that are deeply integrated with dataset strategy and evolving model capabilities.</li>
   </ul>
 </details>
 
