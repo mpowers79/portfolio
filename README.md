@@ -194,6 +194,7 @@ The fine-tuned model (v12) shows a **24% improvement** in keyword extraction and
    * [Product Manager's Guide to Building LLM Evaluation Frameworks](https://medium.com/@michael.sean.powers/a-product-managers-guide-to-building-llm-evaluation-frameworks-2a4a15d8c63d)
    * [Building a Transparent and Improvable Text-to-SQL System](https://www.linkedin.com/pulse/building-transparent-improvable-text-to-sql-system-michael-powers-xjric)
    * [A Practical Approach to Trusting AI in Business Data](https://www.linkedin.com/pulse/glass-box-practical-approach-trusting-ai-business-data-michael-powers-1zyyc)
+   * [I've Spent Years Analyzing Data. Here's How It Taught Me to Build Trustworthy AI](https://medium.com/@michael.sean.powers/ive-spent-years-analyzing-data-here-s-how-it-taught-me-to-build-trustworthy-ai-e58b605bfb9f)
 
 ---
 
