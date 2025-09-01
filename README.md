@@ -11,6 +11,7 @@
 2. [**Projects**](#-projects)
    - [Game Review Sentiment Analyzer](#game-review-sentiment-analyzer)
    - [Text-to-SQL System with a Custom Evaluation Framework](#text-to-sql-system-with-a-custom-evaluation-framework)
+   - [Reducing LLM Hallucinations in Legal Document Analysis](#systematic-hallucination-reduction-for-high-stakes-ai)
 3. [**Tech Stack**](#-tech-stack)
 4. [**Contact Me**](#-contact-me)
 
@@ -195,6 +196,59 @@ The fine-tuned model (v12) shows a **24% improvement** in keyword extraction and
    * [Building a Transparent and Improvable Text-to-SQL System](https://www.linkedin.com/pulse/building-transparent-improvable-text-to-sql-system-michael-powers-xjric)
    * [A Practical Approach to Trusting AI in Business Data](https://www.linkedin.com/pulse/glass-box-practical-approach-trusting-ai-business-data-michael-powers-1zyyc)
    * [I've Spent Years Analyzing Data. Here's How It Taught Me to Build Trustworthy AI](https://medium.com/@michael.sean.powers/ive-spent-years-analyzing-data-here-s-how-it-taught-me-to-build-trustworthy-ai-e58b605bfb9f)
+
+---
+
+### Systematic Hallucination Reduction for High-Stakes AI
+
+*A project demonstrating how systematic error analysis can outperform complex industry-standard methods for a fraction of the cost.*
+
+**Key Features & Accomplishments:**
+* **Established a Data-Driven Framework:** Developed a repeatable 4-step process (Verify -> Analyze -> Identify -> Evaluate) to systematically diagnose and mitigate LLM errors.
+* **Performed a Deep Root-Cause Analysis:** Identified 'semantic misunderstanding' as the primary driver of hallucinations in the legal dataset, a critical insight that guided the solution.
+* **Engineered a High-ROI Solution:** Implemented a low cost "Legal Definition Injection" method that was more performant and more cost-efficient than the complex Chain of Verification pipeline.
+* **Created a Rigorous Testbed:** Deliberately constructed a challenging dataset where ~70% of questions were unanswerable to rigorously test model factuality in a "worst-case scenario."
+<br>
+<table>
+<tr>
+<td width="50%" valign="top">
+<strong>My Iterative Improvement Framework</strong><br>
+<em>The data-driven process used to guide experimentation, from initial failure to the final, optimal solution.</em><br><br>
+<img src="iterative.png" alt="A diagram of the Verify, Analyze, Identify, Evaluate framework" width="100%">
+</td>
+<td width="50%" valign="top">
+<strong>The Result: A High-ROI Solution</strong><br>
+<em>The final solution achieved the highest performance for the lowest relative cost.</em><br><br>
+<img src="costvsperformance.png" alt="A 2x2 chart showing Performance vs. Cost for different solutions" width="100%">
+</a>
+</td>
+</tr>
+</table>
+<br><br>
+
+**Performance Results: Targeted Solution Outperforms Complex Pipeline at lower Cost**
+
+*The "Legal Definition Injection" method delivered the highest F1-Score while only increasing baseline costs by 1.3%, compared to the 16% cost increase from the complex Chain of Verification pipeline.*
+
+**Solution Comparison (Performance vs. Cost):**
+
+| Approach                 | F1-Score | Precision | Cost vs Baseline |
+| :----------------------- | :------- | :-------- |:----------------- |
+| **Baseline**             | 0.28     | 16.8%      |N/A                |
+| **Simple Improvements** | 0.27 | 19.1% | +5% |
+| **Chain of Verification**  | 0.36     | 40.5%      |+16%               |
+| **Legal Definition Injection** | **0.47** | **46.8%**  |**+1.3%**          |
+
+<br>
+<br>
+
+**Resources:**
+* **[📄 Case Study PDF](https://drive.google.com/file/d/1dlp7Ti-VaR8jo69H9i8HXf-v8nUuD-_R/view?usp=sharing)**
+* **[📁 GitHub Repo](https://github.com/mpowers79/llm-hallucinations)**
+* **🛠️ Tech Stack:** Python | Google Gemini | Pandas | NumPy | Jupyter Notebooks
+* **📝 Articles:**
+   * Coming soon
+<br>
 
 ---
 
