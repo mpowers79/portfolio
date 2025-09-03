@@ -247,7 +247,7 @@ The fine-tuned model (v12) shows a **24% improvement** in keyword extraction and
 * **[📁 GitHub Repo](https://github.com/mpowers79/llm-hallucinations)**
 * **🛠️ Tech Stack:** Python | Google Gemini | Pandas | NumPy | Jupyter Notebooks
 * **📝 Articles:**
-   * Coming soon
+   * [4 step framework for solving messy AI problems](https://www.linkedin.com/feed/update/urn:li:activity:7368674089915330561/)
 <br>
 
 ---
