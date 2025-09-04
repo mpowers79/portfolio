@@ -21,7 +21,7 @@
 
 I am a product leader with over 10 years of experience, most recently as a Product Director in the live-service gaming industry. In that role, I was responsible for leading a 100 person cross functional team to deliver 0-to-1 consumer products, also leading initatives that generated eight-figure revenue growth to existing products.
 
-Today, I am passionately applying my expertise in designing data-driven systems and user-centric development to the field of Artificial Intelligence. Through hands-on projects, I am exploring how to build, evaluate, and deploy effective AI solutions that solve real-world business problems. My goal is to leverage my deep experience in commercial product strategy to deliver impactful AI products.
+My hands-on work building AI systems has shaped a clear thesis: the most defensible and valuable AI products are the most **specialized**. This specialization is almost always built on a foundation of unique, high-quality data. Each project below is a practical application of this thesis, exploring how to build, evaluate, and deploy targeted AI solutions that solve real-world business problems.
 
 <br>
 <details>
@@ -88,6 +88,8 @@ Today, I am passionately applying my expertise in designing data-driven systems 
 
 *A Fine-Tuned Llama 3.1 that transforms unstructured game reviews into actionable product insights.*
 
+This project is a direct application of my thesis, showing how fine-tuning a small model on a **specialized dataset** can create a purpose built tool that outperforms commercial APIs.
+
 A pipeline to ingest game review data, process it through the LLM, and store structred JSON output in Parquet files *(for easy integration with corporate BI systems)*.
 
 Interactive web app: Google Play Store review scraper, LLM Triggering & Data Processing, Data Visualization *(sentiment trends, negative topics, top keywords)*
@@ -147,6 +149,10 @@ The fine-tuned model (v12) shows a **24% improvement** in keyword extraction and
 
 *An advanced RAG pipeline for Text-to-SQL, built and improved using a custom, multi-layered evaluation framework to drive accuracy and user trust through transparency.*
 
+This project explores the "specialized model" part of my thesis. It demonstrates how to build a **purpose-built system** for a complex vertical task.
+
+
+
 **Key Features & Accomplishments:**
 * **Developed a Custom Evaluation Framework:** Created a systematic process to find, categorize, and reduce query errors, which was the core of this project.
 * **Engineered a Multi-Step RAG Pipeline:** Designed a pipeline that outperforms single-LLM calls for complex queries.
@@ -202,6 +208,9 @@ The fine-tuned model (v12) shows a **24% improvement** in keyword extraction and
 ### Systematic Hallucination Reduction for High-Stakes AI
 
 *A project demonstrating how systematic error analysis can outperform complex industry-standard methods for a fraction of the cost.*
+
+Specialized data creates challenges. This project demonstrates handling hallucinations in a high-stakes specialized domain.
+
 
 **Key Features & Accomplishments:**
 * **Established a Data-Driven Framework:** Developed a repeatable 4-step process (Verify -> Analyze -> Identify -> Evaluate) to systematically diagnose and mitigate LLM errors.
