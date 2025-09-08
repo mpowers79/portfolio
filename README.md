@@ -341,4 +341,4 @@ Specialized data creates challenges. This project demonstrates handling hallucin
 
 *For professional inquiries, including job opportunities, please connect with me on Linkedin or send an email.*
 
- 
+ ![visitors](https://visitor-badge.laobi.icu/badge?page_id=mpowers79.portfolio)
