@@ -257,6 +257,7 @@ Specialized data creates challenges. This project demonstrates handling hallucin
 * **🛠️ Tech Stack:** Python | Google Gemini | Pandas | NumPy | Jupyter Notebooks
 * **📝 Articles:**
    * [4 step framework for solving messy AI problems](https://www.linkedin.com/feed/update/urn:li:activity:7368674089915330561/)
+   * [A Product Manager's Guide to Strategic LLM Troubleshooting](https://medium.com/@michael.sean.powers/a-product-managers-guide-to-strategic-llm-troubleshooting-c2c3bd6fcee1)
 <br>
 
 ---
