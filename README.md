@@ -160,6 +160,16 @@ This project explores the "specialized model" part of my thesis. It demonstrates
 * **Designed for User Trust:** The UI includes "glass box" features to transparently show users how the SQL was generated and where the data originated.
 
 <br>
+
+**From Prototype to Production: Launching *SchemaSpeak.app***
+
+I transitioned the project from a local prototype into [SchemaSpeak.app](https://schemaspeak.app), a live multi-tenant web application. This required an architectural redesign to meet the demands of a production environment.
+
+* **Scalable Architecture:** Replaced the monolithic Streamlit application with a distributed system. **FastAPI** back-end for handling API requests, a **database driven job queue** to manage tasks like document processing and SQL generation.
+* **Production Ready Deployment:** Containerized using Docker, deployed on Render.com with Supabase serving as database and vector store. This stack was chosen for scalability, low hosting cost, and ease of multi-tenant data management.
+* **Reusable Micro-SaaS Template:** The entire system was built as a reusable template. This modular foundation is designed to **accelerate the development of future micro-SaaS products by an estimated 75%**.
+
+<br>
 <table>
 <tr>
    <td width="50%" valign="top">
