@@ -280,7 +280,7 @@ Specialized data creates challenges. This project demonstrates handling hallucin
 <table>
   <tr>
     <td align="center" width="96">
-      <img src="https://docs.llamaindex.ai/en/stable/_static/assets/LlamaSquareBlack.svg" alt="Llama-Index" width="40" height="40"/>
+      <img src="https://raw.githubusercontent.com/run-llama/logos/main/llamaindex-logo.svg" alt="Llama-Index" width="40" height="40"/>
       <br/>Llama - Index
     </td>
     <td align="center" width="96">
@@ -309,6 +309,9 @@ Specialized data creates challenges. This project demonstrates handling hallucin
   <td align="center" width="96">
     <img src="https://arrow.apache.org/img/arrow-logo_hex_white-txt_black-bg.png" alt="PyArrow" width="40" height="40"/> 
     <br/>PyArrow</td>
+  <td align="center" width="96">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg" alt="Supabase" width="40" height="40"/>
+    <br/>Supabase</td>
   </tr>
 </table>
 
@@ -321,6 +324,9 @@ Specialized data creates challenges. This project demonstrates handling hallucin
     <td align="center" width="96">
       <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit" width="40" height="40"/>
       <br/>Streamlit</td>
+    <td align="center" width="96">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/FastAPI_logo.svg" alt="FastAPI" width="40" height="40"/>
+      <br/>FastAPI</td>
   </tr>
 </table>
 
