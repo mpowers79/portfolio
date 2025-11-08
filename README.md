@@ -212,6 +212,7 @@ I transitioned the project from a local prototype into [SchemaSpeak.app](https:/
    * [Building a Transparent and Improvable Text-to-SQL System](https://www.linkedin.com/pulse/building-transparent-improvable-text-to-sql-system-michael-powers-xjric)
    * [A Practical Approach to Trusting AI in Business Data](https://www.linkedin.com/pulse/glass-box-practical-approach-trusting-ai-business-data-michael-powers-1zyyc)
    * [I've Spent Years Analyzing Data. Here's How It Taught Me to Build Trustworthy AI](https://medium.com/@michael.sean.powers/ive-spent-years-analyzing-data-here-s-how-it-taught-me-to-build-trustworthy-ai-e58b605bfb9f)
+   * [From Prototype to Production: A Product Manager's Guide to Launching an AI Micro-SaaS](https://medium.com/@michael.sean.powers/from-prototype-to-production-a-product-managers-guide-to-launching-an-ai-micro-saas-643f140badf0)
 
 ---
 
